@@ -2,8 +2,8 @@ name: V2 Crypto Sniper Bot
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Her 15 dakikada bir çalışır
-  workflow_dispatch:        # Manuel tetikleme butonu ekler
+    - cron: '* * * * *'  # Her 1 dakika (En agresif mod)
+  workflow_dispatch:        # Manuel tetikleme butonu
 
 jobs:
   build:
