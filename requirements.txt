@@ -1,4 +1,5 @@
 ccxt
 pandas
-pandas-ta
 requests
+numpy<2.0.0
+git+https://github.com/twopirllc/pandas-ta.git@development
